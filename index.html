@@ -10,54 +10,189 @@
     <!-- style css -->
     <link rel="stylesheet" href="css/style.css" />
 
-    <title>Kasper template</title>
+    <title>Ahmed Ghareb</title>
   </head>
   <body>
     <!-- start header -->
     <header>
       <div class="container">
         <a href="#" class="logo">
-          <h1><span>K</span>ASPER</h1>
+          <h1><span>A</span>hmed <span>G</span>hareb</h1>
         </a>
         <nav>
-          <i class="fa-solid fa-bars toggle-menu"></i>
-          <ul>
-            <li><a href="#" class="active">home</a></li>
-            <li><a href="#">services</a></li>
-            <li><a href="#">portfolio</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">pricing</a></li>
-            <li><a href="#">contact</a></li>
+          <i class="fa-solid fa-bars toggle-menu" id="bars"></i>
+          <ul id="menu">
+            <li><a href="#home" class="active">home</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#contact">contact</a></li>
           </ul>
-          <div class="form">
-            <i class="fas fa-search"></i>
-          </div>
         </nav>
       </div>
     </header>
     <!-- end header -->
     
     <!-- start landing -->
-    <div class="landing">
+    <div class="landing" id="home">
         <div class="overlay"></div>
         <div class="text">
             <div class="content">
-                <h2>
-                    HELLO WORLD!<br/>
-                    We Are Kasper We Make Art.
-                </h2>
-                <p>lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem. </p>
-
+              HELLO WORLD , I Am 
+              <h2>Ahmed Ghareb</h2>
+              <p><span>Frontend developer</span> </p>
+              <nav class="links">
+                  <ul>
+                    <li class="github">
+                      <a href="https://github.com/ahmedghareb22"><i class="fa-brands fa-github"></i></a>
+                    </li>
+                    <li class="facebook">
+                      <a href="https://www.facebook.com/profile.php?id=100007609117650"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li class="whatsapp">
+                      <a href="https://wa.me/qr/7L5EE4XTL3AGO1"><i class="fa-brands fa-whatsapp"></i></a>
+                    </li>
+                  </ul>
+              </nav>
             </div>
         </div>
-        <i class="fas fa-angle-left change-background left-arrow fa-2x"></i>
-        <i class="fas fa-angle-right change-background right-arrow "></i>
-        <ul class="bullets">
-            <li></li>
-            <li class="active"></li>
-            <li></li>
-        </ul>
+        <!--  -->
     </div>
     <!-- end landing -->
+    
+    <!-- start projects -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2 class="special-heading">Projects</h2>
+
+        <div class="projects-content" id="projects-container">
+
+          <div class="card one">
+            <div class="card-img">
+              <img src="./img/coffe.png" alt="coffee Website">
+            </div>
+            <div class="card-body">
+              <h3 class="title">Coffee</h3>
+              <span class="description">a website for a coffee market</span>
+            </div>
+            <div class="tags">
+              <ul>
+                <li class="tag">HTML</li>
+                <li class="tag">CSS</li>
+                <li class="tag">MEDIA QUERY</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <div class="btns">
+                <a href="">see on github</a>
+                <a href="">live demo</a>
+              </div>
+            </div>
+          </div>
+          <div class="card three">
+            <div class="card-img">
+              <img src="./img/coffe.png" alt="coffee Website">
+            </div>
+            <div class="card-body">
+              <h3 class="title">Coffee</h3>
+              <span class="description">a website for a coffee market</span>
+            </div>
+            <div class="tags">
+              <ul>
+                <li class="tag">HTML</li>
+                <li class="tag">CSS</li>
+                <li class="tag">MEDIA QUERY</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <div class="btns">
+                <a href="">see on github</a>
+                <a href="">live demo</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- end projects -->
+    
+    <!-- start skills -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2 class="special-heading">{ Skills }</h2>
+        <div class="skills-content">
+          <nav>
+            <ul>
+              <li class="card">
+                <img src="./img/html.png" alt="html-logo">
+                <span>HTML</span>
+              </li>
+              <li class="card">
+                <img src="./img/css.png" alt="css-logo">
+                <span>CSS</span>
+              </li>
+              <li class="card">
+                <img src="./img/javascript.png" alt="JavaScript-logo">
+                <span>JavaScript</span>
+              </li>
+              <li class="card">
+                <img src="./img/bootstrap.png" alt="bootstrap-logo">
+                <span>Bootstrap</span>
+              </li>
+              <li class="card">
+                <img src="./img/tailwind.png" alt="tailwind-logo">
+                <span>tailwind</span>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </section>
+    <!-- end skills -->
+
+    <!-- start contact section -->
+    <div class="contact" id="contact">
+        <div class="container">
+            <h2 class="special-heading">&lt;contact&gt;</h2>
+
+        <div class="contact-info">
+            <p class="label">contact with us:</p>
+            <!-- subject is a title of message will appear when i visit the site -->
+            <a href="mailto:ahmed2003ghareb@gmail.com" class="link">ahmed2003ghareb@gmail.com</a>
+            <div class="social">
+                Find Us On Social Media :
+                <nav class="social-links">
+                  <ul>
+                    <li>
+                      <a href="https://www.facebook.com/profile.php?id=100007609117650">
+                        <i class="fa-brands fa-square-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/ahmed_ghareb_22/">
+                        <i class="fa-brands fa-instagram"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/ahmedghareb22">
+                        <i class="fa-brands fa-square-github"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- end contact section -->
+
+    <!-- start footer section -->
+    <div class="footer">
+        &copy; 2024 <a href="https://github.com/ahmedghareb22"><span>Ahmed Ghareb</span></a> All Right Reserved
+    </div>
+    <!-- end footer section -->
+
+    <script src="./main.js"></script>
+    <script src="./app.js"></script>
   </body>
 </html>
