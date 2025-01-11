@@ -312,6 +312,7 @@ header nav .form i{
     margin-bottom: 60px;
     text-align: center;
     text-transform: capitalize;
+    padding-inline: 20px;
 }
 .projects .projects-content .card{
     background: linear-gradient(75deg, #eee, #ddd, #eee);
@@ -341,9 +342,17 @@ header nav .form i{
     margin-bottom: 20px;
 }
 .projects .projects-content .card .tags ul{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(40px, 1fr));
+
 }
+@media (max-width: 760px) {
+    .projects .projects-content .card .tags ul{
+    grid-template-columns: repeat(2, minmax(40px, 1fr));
+
+}
+}
+
 .projects .projects-content .card .tags ul li{
     background-color: #b3b3b391;
     text-transform: uppercase;
@@ -452,6 +461,7 @@ header nav .form i{
     }
     .contact .contact-info .link {
         margin-left: 0;
+        font-size: 20px;
     }
 }
 .contact .contact-info .social{
