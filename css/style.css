@@ -32,8 +32,8 @@ a{
     text-decoration: none;
 }
 .container {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -348,10 +348,6 @@ header nav .form i{
 @media (max-width: 760px) {
     .projects .projects-content .card .tags ul{
     grid-template-columns: repeat(2, minmax(40px, 1fr));
-}
-.projects .projects-content .card{
-    margin-left: 10px;
-    margin-right: 10px;
 }
 }
 
