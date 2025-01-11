@@ -24,7 +24,7 @@ let details = {
       tags: ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP", "SWIPER JS"],
       links: [
         "https://github.com/ahmedghareb22/goal-copy-ecommerce",
-        "https://ahmedghareb22.github.io/goal-copy-ecommerce/template.html",
+        "https://ahmedghareb22.github.io/goal-copy-ecommerce/",
       ],
     },
     {
