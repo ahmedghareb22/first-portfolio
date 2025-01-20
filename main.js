@@ -55,7 +55,7 @@ let details = {
       description: "a website for a food",
       image: "./img/foodie.png",
       tags: ["HTML", "Tailwind", "JavaScript"],
-      links: ["https://github.com/ahmedghareb22/foodie-tailwind", "#"],
+      links: ["https://github.com/ahmedghareb22/foodie-tailwind", "https://ahmedghareb22.github.io/foodie-tailwind/src/"],
     },
     {
       id: 6,
